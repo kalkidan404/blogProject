@@ -24,6 +24,10 @@ app.use("/api/auth", authRoutes);
 
 // Error handling middleware (ALWAYS LAST)
 app.use(errorMiddleware);
-
+app.get("/", (req, res) => {
+    res.json({
+        message: "Blog API is running 🚀"
+    });
+});
 
 module.exports = app;
