@@ -1,0 +1,85 @@
+.navbar {
+
+    height: 75px;
+
+    background: #3b2618;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 60px;
+
+    color: #fff8e7;
+
+    box-shadow:
+        0 4px 15px rgba(0,0,0,0.25);
+
+}
+
+
+
+.nav-logo a {
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+    color: #f4ead5;
+
+}
+
+
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+}
+
+
+
+.nav-links a {
+
+    color: #f4ead5;
+
+    font-size: 16px;
+
+    transition: 0.2s;
+
+}
+
+
+
+.nav-links a:hover {
+
+    color: #d2b48c;
+
+}
+
+
+
+
+.logout-btn {
+
+    background: #8b5e34;
+
+    padding: 8px 15px;
+
+}
+
+
+
+.logout-btn:hover {
+
+    background: #a67c52;
+
+}
