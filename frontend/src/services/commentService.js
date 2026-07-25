@@ -1,10 +1,9 @@
 import api from "../api/axios";
 
 
-
 export const getPostComments = async (postId) => {
 
-    const response = await api.get(`/comments/post/${postId}`);
+    const response = await api.get(`/api/comments/post/${postId}`);
 
     return response.data;
 
@@ -12,12 +11,10 @@ export const getPostComments = async (postId) => {
 
 
 
-
-
 export const createComment = async (commentData) => {
 
     const response = await api.post(
-        "/comments",
+        "/api/comments",
         commentData
     );
 
@@ -27,12 +24,10 @@ export const createComment = async (commentData) => {
 
 
 
-
-
 export const deleteComment = async (id) => {
 
     const response = await api.delete(
-        `/comments/${id}`
+        `/api/comments/${id}`
     );
 
     return response.data;

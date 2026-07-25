@@ -12,21 +12,24 @@ function PostCard({ post }) {
                 {post.title}
             </h2>
 
+
             <p className="post-author">
 
                 By {post.author.username}
 
             </p>
 
+
             <p className="post-preview">
 
                 {
                     post.content.length > 220
-                        ? post.content.slice(0,220) + "..."
+                        ? post.content.slice(0, 220) + "..."
                         : post.content
                 }
 
             </p>
+
 
             <div className="post-footer">
 
@@ -37,13 +40,16 @@ function PostCard({ post }) {
                     Read Story →
                 </Link>
 
+
                 <span>
 
-                  💬 {post.comments?.length ?? 0}
+                    💬 {post.comments?.length ?? 0}
 
                 </span>
 
+
             </div>
+
 
         </article>
 

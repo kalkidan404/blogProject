@@ -3,7 +3,7 @@ import api from "../api/axios";
 
 export const getCurrentUser = async () => {
 
-    const response = await api.get("/users/me");
+    const response = await api.get("/api/users/me");
 
     return response.data;
 
@@ -14,7 +14,7 @@ export const getCurrentUser = async () => {
 export const updateUser = async (userData) => {
 
     const response = await api.put(
-        "/users/me",
+        "/api/users/me",
         userData
     );
 

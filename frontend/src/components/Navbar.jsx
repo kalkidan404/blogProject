@@ -85,7 +85,7 @@ function Navbar() {
                             </Link>
 
 
-                            <Link to="/register">
+                            <Link to="/Register">
                                 Register
                             </Link>
 
