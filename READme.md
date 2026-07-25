@@ -312,19 +312,9 @@ Built by Kalkidan
 
 A full-stack learning project focused on building real-world applications and improving software engineering skills.
 
-```
+live demo
+backend
+https://blogproject-qzip.onrender.com
 
----
-
-One small thing: before pushing to GitHub, remember to create a `.gitignore` so you **do not upload**:
-
-```
-
-node_modules
-.env
-dist
-
-```
-
-Especially `.env` because your database password and JWT secret should never be public.
-```
+frontend
+https://blog-project-ten-tau.vercel.app/
